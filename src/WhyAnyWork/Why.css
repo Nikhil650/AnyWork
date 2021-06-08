@@ -1,0 +1,114 @@
+.why{
+    width:100%;
+    height: 100%;
+}
+
+.why-main{
+    width: 100%;
+    height: auto;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-container1{
+    width: 75%;
+    height: 300px;
+    border: 3px solid red;
+    background-color: gray;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.why-container2{
+    width: 75%;
+    height: 300px;
+    border: 3px solid red;
+    background-color: gray;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.why-container3{
+    width: 75%;
+    height: 300px;
+    border: 3px solid red;
+    background-color: gray;
+    padding: 0px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.why-wrapper1{
+    border: 3px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95%;
+}
+
+.why-wrapper2{
+    border: 3px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+}
+
+.why-wrapper3{
+    border: 3px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95%;
+}
+
+.why-item{
+    border: 3px solid blue;
+}
+
+.why-item h1{
+    background-color: aqua;
+    width: 630px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-item img{
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 3px solid black;    
+}
+
+/* .how-item img{
+    width: 270px;
+    height: 270px;
+} */
+
+/* .how-item img:hover{
+    width: 275px;
+    height: 275px;
+    transition: all 0.2s ease-out;
+} */
