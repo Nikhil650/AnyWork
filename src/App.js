@@ -24,7 +24,7 @@ function App() {
           <Route path='/support' component={Support} />
           <Route path='/service' component={Service} />
           <Route path='/getjobs' component={GetJobs} />
-          {/* <Route path='/postjobs' component={PostJobs} /> */}
+          <Route path='/postjobs' component={PostJobs} />
         </Switch>
       </Router>
     </>
