@@ -43,12 +43,13 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: fit-content;
+  margin-left: 300px;
   justify-content: end;
   padding-left: 1rem;
   padding-right: 2rem;
   margin-right: -30px;
-  border: 3px solid red;
+  border: 3px solid blue;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 

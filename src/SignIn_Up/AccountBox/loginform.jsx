@@ -26,7 +26,16 @@ export function LoginForm(props) {
   function Submit(e){
     e.preventDefault()
     const data = {Email, Password}
-    axios.post("http://localhost:5001/register/signup",data)
+    const req = axios.get(`http://localhost:5001/register/signin?Email=${Email}&&Password=${Password}`)
+    console.log (req)
+    // useEffect(() => {async function fetchData(){
+    //   const req = await axios.get(`http://localhost:5001/register/sigin?Email=${Email}&&Password=${Password}`)
+    //   console.log(req.data)
+    // }
+    // fetchData()
+    // }
+    // , []
+    // )
   }
 
   return (

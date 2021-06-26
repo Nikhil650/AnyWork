@@ -9,6 +9,7 @@ import Support from "./Support/Support";
 import GetJobs from "./GetJobs/GetJobs";
 import PostJobs from "./PostJobs/PostJobs";
 import Service from "./Service/Service";
+import NewJob from "./GetJobs/NewJob";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/service' component={Service} />
           <Route path='/getjobs' component={GetJobs} />
           <Route path='/postjobs' component={PostJobs} />
+          <Route path='/getjobs/newjobs' component={NewJob} />
         </Switch>
       </Router>
     </>
