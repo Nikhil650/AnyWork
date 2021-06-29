@@ -7,18 +7,18 @@ function Cards1() {
     <div className='cards1'>
       <div className='cards__container1'>
         <div className='cards__wrapper1'>
-          <ul className='cards__items'>
+          <ul className='cards__items1'>
             <CardItem
               src='assets/images/Forms-bro.png'
-              text='An excellent job done by the developer XYZ.'
-              label='Adventure'
-              path='/products'
+              text='Akshat Awasthi'
             />
             <CardItem
               src='assets/images/Forms-bro.png'
-              text='An excellent job done by the developer XYZ.'
-              label='Adrenaline'
-              path='/sign-up'
+              text='Nikhil Agarwal'
+            />
+            <CardItem
+              src='assets/images/Forms-bro.png'
+              text='Vardan Sharma'
             />
           </ul>
         </div>

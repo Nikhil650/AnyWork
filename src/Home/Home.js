@@ -11,7 +11,7 @@ function Home() {
       <Navbar />
       <HeroSection />
       <Cards />
-      {/* <Cards1 /> */}
+      <Cards1 />
       <Footer />
     </div>
   );
