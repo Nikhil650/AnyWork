@@ -17,7 +17,7 @@ function Service() {
                         <Link
                         to='/getjobs'
                         className='service-links'><img src="assets/images/Forms-bro.png" />
-                        <div className='service-title'><h1>GetJobs</h1></div></Link>
+                        <div className='service-title'><h1>Work</h1></div></Link>
                     </div>
                     </div>
                     <div className='service-wrapper'>
@@ -25,7 +25,7 @@ function Service() {
                     <Link
                         to='/postjobs'
                         className='service-links'><img src="assets/images/Forms-bro.png" />
-                        <div className='service-title'><h1>PostJobs</h1></div></Link>
+                        <div className='service-title'><h1>Hire</h1></div></Link>
                     </div>
                     </div>
                 </div>

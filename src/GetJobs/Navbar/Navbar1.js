@@ -12,7 +12,7 @@ function Navbar1() {
           <ul className='nav-menu1'>
             <li className='nav-item1'>
               <Link
-                to='/getjobs/newjobs'
+                to='/getjobs'
                 className='nav-links1'
                 >
                 New Jobs
@@ -20,7 +20,7 @@ function Navbar1() {
             </li>
             <li className='nav-item1'>
               <Link
-                to='/getjobs/active'
+                to='/get/activejobs'
                 className='nav-links1'
                 >
                 Active
@@ -28,7 +28,7 @@ function Navbar1() {
             </li>
             <li>
               <Link
-                to='/getjobs/complete'
+                to='/get/complete'
                 className='nav-links1'
                 >
                 Completed

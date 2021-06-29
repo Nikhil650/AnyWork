@@ -1,0 +1,140 @@
+ .form-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.form1{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.28);
+    margin: 50px;
+    background-color: #fff;
+    
+}
+
+.form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin: 40px 40px 40px 40px;
+  }
+  
+  
+
+  .form-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .form-group {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin:0 40px 40px 0;
+    
+  }
+  
+  .form-group > input,
+  textarea {
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137);
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    
+    background: #fff;
+    font-size: 16px;
+    color: rgb(0, 0, 32);
+    outline: none;
+  }
+  
+  .form-group > input:focus,
+  textarea:focus {
+    border: 1px solid rgb(0, 0, 196);
+  }
+  
+  .form-group > textarea {
+    height: 150px;
+    max-width: 400px;
+    min-height: 100px;
+  }
+  
+  .form-group > label {
+    padding-bottom: 10px;
+    color: rgb(0, 0, 32);
+    font-weight: bold;
+  }
+
+  .form-group1 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: unset;
+    width: 400px;
+    margin:0 40px 40px 0;
+    
+  }
+  
+  .form-group1 > input,
+  textarea {
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137);
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    
+    background: #fff;
+    font-size: 16px;
+    color: rgb(0, 0, 32);
+    outline: none;
+  }
+  
+  .form-group1 > input:focus,
+  textarea:focus {
+    border: 1px solid rgb(0, 0, 196);
+  }
+  
+  .form-group1 > textarea {
+    height: 350px;
+    max-width: 400px;
+    min-height: 100px;
+  }
+  
+  .form-group1 > label {
+    padding-bottom: 10px;
+    color: rgb(0, 0, 32);
+    font-weight: bold;
+  }
+  
+  .form > button {
+    padding: 20px;
+    border: none;
+    background-color: rgb(2, 2, 110);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 0px;
+  }
+  
+  .form > button:hover {
+    background-color: rgb(15, 159, 196);
+    transform: scale(1.02);
+  }

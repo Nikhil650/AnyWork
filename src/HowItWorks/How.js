@@ -6,7 +6,7 @@ function How() {
   return (
     <div className="how">
       <Navbar />
-      {/* <div className='how-main'>
+      <div className='how-main'>
                 <div className='how-container1'>
                     <div className='how-wrapper1'>
                     <div className='how-item'>
@@ -37,7 +37,7 @@ function How() {
                     </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
       <Footer />
     </div>
   );

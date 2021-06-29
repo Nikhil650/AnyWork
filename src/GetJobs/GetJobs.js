@@ -13,9 +13,7 @@ function GetJobs() {
             <Navbar1 />
             <div className='getjobs-container'>
                 <Sidebar />
-                {/* <Router history={history}>
-                    
-                </Router> */}
+                
                
             </div>
             <Footer />

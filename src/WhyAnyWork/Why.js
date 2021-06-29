@@ -6,7 +6,7 @@ function Why() {
   return (
     <div className="why">
       <Navbar />
-      {/* <div className='why-main'>
+      <div className='why-main'>
                 <div className='why-container1'>
                     <div className='why-wrapper1'>
                     <div className='why-item'>
@@ -37,7 +37,7 @@ function Why() {
                     </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
       <Footer />
     </div>
   );

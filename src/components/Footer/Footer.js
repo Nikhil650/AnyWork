@@ -25,7 +25,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/contact'>Contact</Link>
-            <Link to='/support'>Support</Link>
+            
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>

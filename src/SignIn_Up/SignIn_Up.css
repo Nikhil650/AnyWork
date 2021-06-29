@@ -7,11 +7,11 @@
     
     .SignContainer {
       width: 100%;
-      height: 85vh;
+      height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: #fff;
+      background-color: white;
     }
     

@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/home' className='navbar-logo'>
+          <Link to='/' className='navbar-logo'>
             AnyWorkD
             <i class='fab fa-typo3' />
           </Link>

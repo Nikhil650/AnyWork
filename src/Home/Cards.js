@@ -12,19 +12,19 @@ function Cards() {
             <CardItem
               src='assets/images/Forms-bro.png'
               text='An excellent job done by the developer XYZ.'
-              label='Review'
+              label='Web Development'
               //path='/services'
             />
             <CardItem
               src='assets/images/Forms-bro.png'
               text='An excellent job done by the developer XYZ.'
-              label='Luxury'
+              label='Web Design'
               //path='/services'
             />
             <CardItem
               src='assets/images/Forms-bro.png'
               text='An excellent job done by the developer XYZ.'
-              label='Mystery'
+              label='Graphic Design'
               //path='/services'
             />
           </ul>

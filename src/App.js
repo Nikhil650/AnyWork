@@ -5,28 +5,36 @@ import Why from './WhyAnyWork/Why';
 import How from './HowItWorks/How';
 import SignIn_Up from './SignIn_Up/SignIn_Up';
 import Contact from "./Contact/Contact";
-import Support from "./Support/Support";
-import GetJobs from "./GetJobs/GetJobs";
-import PostJobs from "./PostJobs/PostJobs";
+
 import Service from "./Service/Service";
-import NewJob from "./GetJobs/NewJob";
+import NewJob from "./GetJobs/NewJobs/NewJob";
+import ActiveJob from "./GetJobs/Active/ActiveJob";
+import CompleteJob from "./GetJobs/Complete/CompleteJob";
+import Active from "./PostJobs/Active/Active";
+import Complete from "./PostJobs/Complete/Complete";
+import Form from "./PostJobs/Form/Form";
 
 function App() {
   return (
     <>
       <Router>
         <Switch>
-          <Route path='/' exact component={SignIn_Up} />
+          <Route path='/' exact component={Home} />
           <Route path='/sign-up' exact component={SignIn_Up} />
           <Route path='/why' component={Why} />
           <Route path='/how' component={How} />
-          <Route path='/home' component={Home} />
+          {/* <Route path='/home' component={Home} /> */}
           <Route path='/contact' component={Contact} />
-          <Route path='/support' component={Support} />
+          
           <Route path='/service' component={Service} />
-          <Route path='/getjobs' component={GetJobs} />
-          <Route path='/postjobs' component={PostJobs} />
-          <Route path='/getjobs/newjobs' component={NewJob} />
+          <Route path='/getjobs' component={NewJob} />
+          {/* <Route path='/postjobs' component={PostJobs} /> */}
+          {/* <Route path='/get/newjobs' component={NewJob} /> */}
+          <Route path='/get/activejobs' component={ActiveJob} />
+          <Route path='/get/complete' component={CompleteJob} />
+          <Route path='/postjobs' component={Active} />
+          <Route path='/post/add' component={Form} />
+          <Route path='/post/complete' component={Complete} />
         </Switch>
       </Router>
     </>

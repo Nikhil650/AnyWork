@@ -1,0 +1,74 @@
+.complete-main{
+    width: 100%;
+    display: flex;
+}
+
+.complete-jobs{
+   
+    display: flex;
+    flex-direction: row;
+}
+
+.complete-container{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 3px black solid;
+     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete-container h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.complete-container p{
+    margin-bottom: 10px;
+}
+
+.complete-container h4{
+    margin-bottom: 10px;
+}
+
+.complete-container1{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 3px black solid;
+     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete-container1 h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.complete-container1 p{
+    margin-bottom: 10px;
+}
+
+.complete-container1 h4{
+    margin-bottom: 10px;
+}
+
+.complete-container:hover{
+    width: 260px;
+    height: 260px;
+}
+
+.complete-container1:hover{
+    width: 260px;
+    height: 260px;
+}
+

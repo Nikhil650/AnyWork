@@ -1,13 +1,13 @@
-.navbar1 {
+.navbar2 {
     background-color:  rgb(48, 47, 47);
     height: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     font-size: 1.2rem;
   }
   
-  .navbar-container1 {
+  .navbar-container2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,46 +15,31 @@
     max-width: 1500px;
   }
   
-  .navbar-logo {
-    color: #fff;
-    justify-content: start;
-    margin-left: -30px;
-    margin-right: 250px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
+ 
   
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
-  }
   
-  .nav-menu1 {
+  
+  .nav-menu2 {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: fit-content;
-    margin-left: -580px;
-    justify-content: end;
+    margin-left: 60px;
+    justify-content: start;
     /* padding-left: 1rem;
     padding-right: 2rem;
     margin-right: -30px; */
     font-family: Georgia, "Times New Roman", Times, serif;
+    border: 1px solid red;
   }
   
-  .nav-item1 {
+  .nav-item2 {
     height: 35px;
   }
   
-  .nav-links1 {
+  .nav-links2 {
     color: #fff;
     display: flex;
     align-items: center;
@@ -65,7 +50,7 @@
     justify-content: center;
   }
   
-  .nav-links1:hover {
+  .nav-links2:hover {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
   }
@@ -74,7 +59,7 @@
     color: #fff;
   }
   
-  .nav-links1-mobile {
+  .nav-links2-mobile {
     display: none;
   }
   

@@ -1,12 +1,10 @@
 .cards {
     padding: 4rem;
     background: #242638;
-    border: 3px solid red;
   }
   
   h1 {
     text-align: center;
-    border: 3px solid yellow;
   }
   
   .cards__container {
@@ -16,18 +14,15 @@
     max-width: 2500px;
     width: 90%;
     margin: 0 auto;
-    border: 3px solid green;
   }
   
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
-    border: 3px solid black;
   }
   
   .cards__items {
     margin-bottom: 24px;
-    border: 3px solid pink;
   }
   
   .cards__item {
@@ -35,7 +30,6 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    border: 3px solid orange;
   }
   
   .cards__item__link {
@@ -48,7 +42,6 @@
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
-    border: 3px solid orangered;
   }
   
   .cards__item__pic-wrap {
@@ -56,13 +49,11 @@
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
-    border: 3px solid blue;
   }
   
   .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
-    border: 3px solid seagreen;
   }
   
   .cards__item__pic-wrap::after {
@@ -77,7 +68,6 @@
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
-    border: 3px solid skyblue;
   }
   
   .cards__item__img {
@@ -93,7 +83,6 @@
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
-    border: 3px solid aqua;
   }
   
   .cards__item__img:hover {
@@ -103,7 +92,6 @@
   
   .cards__item__info {
     padding: 20px 30px 30px;
-    border: 3px solid azure;
   }
   
   
@@ -111,5 +99,4 @@
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
-    border: 3px solid brown;
   }

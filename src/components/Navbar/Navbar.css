@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  border: 1px solid red;
 }
 
 .navbar-container {
@@ -28,7 +27,6 @@
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  border: 3px solid red;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -49,7 +47,6 @@
   padding-left: 1rem;
   padding-right: 2rem;
   margin-right: -30px;
-  border: 3px solid blue;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
