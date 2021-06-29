@@ -5,6 +5,7 @@ import CardItem from '../components/Card/CardItem';
 function Cards1() {
   return (
     <div className='cards1'>
+      <h1>Meet the Developers</h1>
       <div className='cards__container1'>
         <div className='cards__wrapper1'>
           <ul className='cards__items1'>
@@ -13,11 +14,11 @@ function Cards1() {
               text='Akshat Awasthi'
             />
             <CardItem
-              src='assets/images/Forms-bro.png'
+              src='assets/images/Nikhil.jpg'
               text='Nikhil Agarwal'
             />
             <CardItem
-              src='assets/images/Forms-bro.png'
+              src='assets/images/Vardan.png'
               text='Vardan Sharma'
             />
           </ul>
