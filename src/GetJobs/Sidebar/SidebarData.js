@@ -10,31 +10,31 @@ export const SidebarData = [
   {
     title: "All",
     icon: <HomeIcon />,
-    link: "/home"
+    link: "/getjobs"
   },
   {
     title: "Web Design",
     icon: <MailIcon />,
-    link: "/mailbox"
+    link: "/getjobs"
   },
   {
     title: "Web Development",
     icon: <AssessmentIcon />,
-    link: "/analytics"
+    link: "/getjobs"
   },
   {
     title: "Content Writing",
     icon: <DashboardIcon />,
-    link: "/dashboard"
+    link: "/getjobs"
   },
   {
     title: "Graphics Design",
     icon: <GroupIcon />,
-    link: "/friend"
+    link: "/getjobs"
   },
   {
   title: "Digital Marketing",
     icon: <PermMediaIcon />,
-    link: "/images"
+    link: "/getjobs"
   }
 ];

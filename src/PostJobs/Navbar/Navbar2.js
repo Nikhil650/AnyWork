@@ -15,10 +15,18 @@ function Navbar2() {
                 to='/postjobs'
                 className='nav-links2'
                 >
-                Active
+                Active Bids
               </Link>
             </li>
-            <li>
+            <li className='nav-item2'>
+              <Link
+                to='/post/active'
+                className='nav-links2'
+                >
+                Active Jobs
+              </Link>
+            </li>
+            <li className='nav-item2'>
               <Link
                 to='/post/complete'
                 className='nav-links2'

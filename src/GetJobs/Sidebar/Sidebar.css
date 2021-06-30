@@ -23,16 +23,17 @@
     align-items: center;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
+      
   }
   
   .sidebarlist .row:hover{
   cursor: pointer;
-  background-color: gray;
+  background-color: rgb(136, 130, 130);
   }
   
-  .sidebarlist #active{
+  /* .sidebarlist #active{
   background-color: gray;
-  }
+  } */
   
   .row #icon {
     flex: 30%;
@@ -42,5 +43,6 @@
   
   .row #title{
     flex: 70%;
+    
   }
   

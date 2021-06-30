@@ -26,7 +26,7 @@ function HeroSection() {
       </div>
       </div>
       <div className='hero-container'>
-        <img src="assets/images/Forms-bro.png" />
+        <img src="assets/images/Freelancer-amico.png" />
       </div>
     </div>
   );

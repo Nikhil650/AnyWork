@@ -1,0 +1,107 @@
+.bids_main{
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.bids_container{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 3px black solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bids_container h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bids_container p{
+    margin-bottom: 10px;
+}
+
+.bids_container h4{
+    margin-bottom: 10px;
+}
+
+.bids_container1{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    transform: scale(3);
+    color: black;
+}
+
+.icon:hover{
+    transform: scale(3.2);
+}
+
+
+.bid-wrapper1{
+    height: auto;
+    width: auto;
+    margin:20px 10px 0px 10px ;
+    
+}
+
+.bid-wrapper1 p{
+    margin-bottom: 10px;
+}
+
+.bid-wrapper1 h4{
+    margin-bottom: 10px;
+}
+
+.bid-wrapper2{
+    height: 300px;
+    width: auto;
+    margin:20px 10px 0px 10px ;
+}
+
+.bid-wrapper2 p{
+    margin-bottom: 10px;
+}
+
+.bid-wrapper2 h4{
+    margin-bottom: 10px;
+}
+
+.bid-wrapper3{
+    width: 350px;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+    
+     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bid-profile{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+    border: 3px black solid;
+     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -19,7 +19,7 @@ const Contact = () => {
   function Submit(e){
     e.preventDefault()
     const data = {Name, Email, Message}
-    axios.post("http://localhost:5001/register/contact",data)
+    axios.post("http://localhost:5001/contact",data)
   }
 
   // const [Name, setName] = useState("");

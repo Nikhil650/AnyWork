@@ -10,19 +10,19 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='assets/images/Forms-bro.png'
+              src='assets/images/Static assets-bro.png'
               text='An excellent job done by the developer XYZ.'
               label='Web Development'
               //path='/services'
             />
             <CardItem
-              src='assets/images/Forms-bro.png'
+              src='assets/images/Website setup-cuate.png'
               text='An excellent job done by the developer XYZ.'
               label='Web Design'
               //path='/services'
             />
             <CardItem
-              src='assets/images/Forms-bro.png'
+              src='assets/images/Designer life-bro.png'
               text='An excellent job done by the developer XYZ.'
               label='Graphic Design'
               //path='/services'

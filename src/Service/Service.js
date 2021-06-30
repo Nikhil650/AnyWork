@@ -16,7 +16,7 @@ function Service() {
                     <div className='service-item'>
                         <Link
                         to='/getjobs'
-                        className='service-links'><img src="assets/images/Forms-bro.png" />
+                        className='service-links'><img src="assets/images/Designer-amico.png" />
                         <div className='service-title'><h1>Work</h1></div></Link>
                     </div>
                     </div>

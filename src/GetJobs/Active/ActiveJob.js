@@ -41,7 +41,17 @@ function ActiveJob() {
                         </div>
                     </div>
                 </div>
-                                
+                <div className='active-container1'>
+                    <div className='active-wrapper1'>
+                        <h4>Title</h4>
+                        <h4>Job By:</h4>
+                        <p>Details</p>
+                        <h4>Due Date</h4>
+                        <h4>Contact Number</h4>
+                        <h4>Email</h4>
+                        
+                    </div>    
+                </div>       
             </div>
             <Footer />
         </div>

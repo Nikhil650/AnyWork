@@ -15,6 +15,27 @@
 }
 
 .new-container{
+    margin-top: 40px;
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-wrapper1{
+    margin:20px 10px 20px 10px ;
+}
+
+.new-wrapper1 p{
+    margin-bottom: 10px;
+}
+
+.new-wrapper1 h4{
+    margin-bottom: 10px;
+}
+
+/* .new-container{
     width: 250px;
     height: 250px;
     margin-top: 30px;
@@ -43,5 +64,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 

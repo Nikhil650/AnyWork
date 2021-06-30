@@ -13,6 +13,7 @@ import CompleteJob from "./GetJobs/Complete/CompleteJob";
 import Active from "./PostJobs/Active/Active";
 import Complete from "./PostJobs/Complete/Complete";
 import Form from "./PostJobs/Form/Form";
+import ActiveBids from "./PostJobs/Bids/Bids";
 
 function App() {
   return (
@@ -28,11 +29,11 @@ function App() {
           
           <Route path='/service' component={Service} />
           <Route path='/getjobs' component={NewJob} />
-          {/* <Route path='/postjobs' component={PostJobs} /> */}
+          <Route path='/postjobs' component={ActiveBids} />
           {/* <Route path='/get/newjobs' component={NewJob} /> */}
           <Route path='/get/activejobs' component={ActiveJob} />
           <Route path='/get/complete' component={CompleteJob} />
-          <Route path='/postjobs' component={Active} />
+          <Route path='/post/active' component={Active} />
           <Route path='/post/add' component={Form} />
           <Route path='/post/complete' component={Complete} />
         </Switch>

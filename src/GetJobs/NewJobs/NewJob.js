@@ -15,34 +15,6 @@ function NewJob() {
             <Navbar1 />
             <div className='new-main'>
                 <Sidebar />
-                {/* <div className="new-container">
-                    <h2>Job Title</h2>
-                    <p>Description</p>
-                    <h4>Category</h4>
-                    <h4>Posted By</h4>
-                    <h4>Cost</h4>
-                </div>
-                <div className="new-container">
-                    <h2>Job Title</h2>
-                    <p>Description</p>
-                    <h4>Category</h4>
-                    <h4>Posted By</h4>
-                    <h4>Cost</h4>
-                </div>
-                <div className="new-container">
-                    <h2>Job Title</h2>
-                    <p>Description</p>
-                    <h4>Category</h4>
-                    <h4>Posted By</h4>
-                    <h4>Cost</h4>
-                </div>
-                <div className="new-container">
-                    <h2>Job Title</h2>
-                    <p>Description</p>
-                    <h4>Category</h4>
-                    <h4>Posted By</h4>
-                    <h4>Cost</h4>
-                </div> */}
                 <div className='new-wrapper'>
                     <div className='UI'>
                         <CardGet
@@ -76,7 +48,40 @@ function NewJob() {
                         body='I want Instagram posters in the size of 1080*1080'
                         />
                     </div>
-                    
+                </div>
+                <div className='new-container'>
+                    <div className='new-wrapper1'>
+                        <h4>Title</h4>
+                        <h4>Job By:</h4>
+                        <p>Details</p>
+                        <h4>Due Date</h4>
+                        <h4>Contact Number</h4>
+                        <h4>Email</h4>
+                        <div className="btn">
+                            <div className='button1'>
+                                <button>
+                                    Apply
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='new-wrapper1'>
+                        <h4>Submit Qualifications</h4>
+                        <div className="btn">
+                            <div className='button1'>
+                                <button>
+                                    Add File
+                                </button>
+                            </div>
+                        </div>
+                        <div className="btn">
+                            <div className='button1'>
+                                <button>
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <Footer />
